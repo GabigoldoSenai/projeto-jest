@@ -6,3 +6,4 @@ test('Verifica se a comparação está correta', () => {
     let comparacaoSenhas = comparaSenhas(senha1, senha2)
     expect(comparacaoSenhas).toBe('As senhas são iguais')
 });
+//
